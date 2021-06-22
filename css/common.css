@@ -60,7 +60,7 @@ li{
 .section{
   padding: 120px 0;
 }
-.section:ntn-of-type(odd){
+.section:nth-of-type(odd) {
   background-color: #f7f7f7;
 }
 .inner{
@@ -74,8 +74,8 @@ li{
   font-weight: bold;
   letter-spacing: 5px;
   color: #555;
-  margin-bottom: 60px;
-  border-bottom: solid 5px rgb(255, 251, 0);
+  margin-bottom: 60px; 
+  
   
 }
 .font2{
@@ -95,6 +95,13 @@ li{
 .font4{
   width: 60%;
   margin: 0 auto;
+}
+.about_img{
+  display: block;
+  width: 40%;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #d9d9d9;
 }
 .skill_item{
   display: flex;
@@ -168,4 +175,31 @@ li{
 .contact{
   width: 65%;
   margin: 0 auto;
+}
+.about_title{
+  border-bottom: solid 5px rgb(255, 251, 0);
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.skill_title{
+  border-bottom: solid 5px rgb(255, 251, 0);
+  width: 27%;
+  margin: 0 auto;
+  margin-bottom :60px; 
+}
+.works_title{
+  border-bottom: solid 5px rgb(255, 251, 0);
+  width: 32%;
+  margin: 0 auto;
+  margin-bottom :60px; 
+}
+.contact_title{
+  border-bottom: solid 5px rgb(255, 251, 0);
+  width: 24%;
+  margin: 0 auto;
+  margin-bottom :60px; 
+}
+.contact{
+  width: 100%;
 }
